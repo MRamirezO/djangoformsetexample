@@ -1,0 +1,1 @@
+Simple django app to explain django formsets

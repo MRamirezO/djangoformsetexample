@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Consoles list</h1>
+
+
+{% for form in console_formset %}
+    {{ form.as_p }}
+{% endfor %}
+
+</body>
+</html>
